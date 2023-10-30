@@ -3,136 +3,112 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <title>Landing Page PalleteStudio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <title>Landing Page IHC</title>
 </head>
 <body>
-
-    <header class="hero">
-        <div class="textos-hero">
-            <h1>Bienvenido a PalleteStudio</h1>
-            <p>Comparte tu arte con nosotros y todo el mundo entero</p>
-            
-            <a href="#Conocenos">Conocenos</a>
-            <a href="#Servicios">Servicios</a>
-            <a href="#galeria">Galería</a>
-            <a href="#Contactanos">Contáctanos</a>
-        </div>
-
+    <header>
+        <nav>
+            <img class="Logo" src="/IMG/Logo.jpg" height="80px" width="80px">
+            <h3 class="Name"> Pallete Studio</h3>
+            <ul>
+                <li><a href="#Inicio"> Inicio</a></li>
+                <li> <a href="#Servicios">Servicios</a></li>
+                <li> <a href="#Nosotros">Nosotros</a></li>
+                <li> <a href="#App_Movil">App Mobil</a></li>
+                <li> <a href="#Contacto">Contacto</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <section class="wave contenedor website">
-        <!--Codigo para hacer olas-->
-        <div class="svg-hero" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #08f;"></path></svg></div>
-        <img src="img/palleteBanner.png" alt="">
-        <div><div style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C149.99,150.00 271.49,-49.98 500.00,49.98 L500.00,0.00 L0.00,0.00 Z" style="stroke: none; fill: #08f;"></path></svg></div></div>
-        
-        <div class="contenedor-textos-main" id="Conocenos">
-            <h2 class="titulo left">Juntos podemos apoyar el arte</h2>
-            <p class="parrafo">Somos un startup llamado "PalettePartnerts" que ha creado una aplicación revolucionaria. Reconocemos los desafíos que enfrentan los artistas y por ello nuestro equipo tiene un propósito: apoyar a los artistas a prosperar en su camino creativo. Nuestra visión es transformar el arte en una fuente económica viable, permitiendo a los artistas ganarse la vida haciendo lo que aman. Invitamos a todos los artistas, amantes del arte y aquellos que aprecian la creatividad a unirse a nosotros en esta misión de apoyar el arte.</p>
-            </div>
-    </section>
+    <div class="Inicio" id="Inicio">
+        <div> 
+        <img class="Banner" src="/IMG/palleteBanner.png" alt="Banner" height="400px" width="600px">
+        <img class="rainbow" src="/IMG/rainbow.png" alt="rainbow" height="400px" width="550px"> <br><br>
+        <span class="texto1">El lugar ideal para artistas y amantes del arte.</span>
+        </div>
+    </div> 
 
+
+    <div class="Servicios" id="Servicios">
+        <div><h2 class="title1">Nuestra Propuesta</h2></div> <br>
+            <div class="contenedor"> 
+                <div class="servicio"> 
+                    <img class="artistas" src="/IMG/artistas.png" alt="servicio1" width="400px" height="300px"> 
+                    <p class="descripcion1">
+                    Proporcionar a los artistas un lugar para promocionar sus servicios y encontrar trabajo, 
+                    lo que puede ser especialmente beneficioso para artistas emergentes.   
+                    </p>
+                </div>
+
+                <div   div class="servicio"> 
+                <img class="artistas" src="/IMG/cliente.jpg" alt="servicio1" width="400px" height="300px"> 
+                <p class="descripcion1">
+                Para los clientes, ofrece acceso a una amplia gama de talento creativo, lo que les permite 
+                    encontrar el artista adecuado para sus proyectos.  
+                </p>
+                </div>
+
+                <div class="servicio"> 
+                <img class="artistas" src="/IMG/comunidad.png" alt="servicio1" width="400px" height="300px"> 
+                <p class="descripcion1">
+                    Fomenta la creación de una comunidad artística activa y comprometida que puede colaborar \
+                    y crecer juntos. 
+                </p>
+                </div>
+        </div>
+    </div> 
     
-    <section class="cards contenedor" id = "Servicios">
-        <h2 class="titulo">Nuestros Servicios</h2>
-        <div class="content class">
 
-            <!--Carta de usuario-->
-            <article class="user card">
-                <i class="fa-regular fa-user"></i>
-                <h3>Conecta</h3>
-                <h5>¡creando tu cuenta ahora y comparte con millones de usuarios tu amor al arte!</h2>
-                <p>Es fácil y sencillo, descubre un mundo de oportunidades y aventúrate en nuestra aplicación.</p>
-                    <a href="" class="cta">Registrate</a>
-            </article>
-            
-            <!--Carta de Interactuar Descubrir Artistas-->
-            <div class="content class">
-                <article class="interact card">
-                    <i class="fa-regular fa-handshake"></i>
-                    <h3>Encuentra</h3>
-                    <h5>aquel cuadro que decorará tu pieza, aquel tutor que te hará tocar como tu guitarrista favorito, ¡Quien sabe con que te puedes topar!</h5>
-                    <p>Con todas y cada una de las bellas artes:  la arquitectura, la pintura, la escultura, la música, la literatura, la danza y el cine, rondando en nuestra aplicación, siempre encontrarás algo.</p>
-                    <a href="" class="cta">Galeria</a>
-                </article>
-
-
-            <!--Carta de Inicio-->
-             <div class="content class">
-                <article class="publish card">
-                    <i class="fa-regular fa-comments"></i>
-                    <h3>Publica</h3>
-                    <h5>...quizá seas el nuevo Da Vinci, o el Lorenzo de Medici de nuestra época...</h5>                    
-                    <p>Nos aseguraremos de que todo lo que publiques llegue al "feed" de la persona indicada, haciendo que consigas posibles clientes, y de esos posibles clientes, clientes frecuentes.</p>
-                    <a href="" class="cta">Inicio</a>
-                </article>
-
+    <div class="Nosotros" id="Nosotros">
+        <div><h2 class="title2">Nosotros</h2></div><br>
+        <div class="contenedor2"> 
+            <div class="slider"> 
+                <div class="images">
+                    <input type="radio" name="slide" id="img1">
+                    <input type="radio" name="slide" id="img2">
+                    <input type="radio" name="slide" id="img3">
+                    <input type="radio" name="slide" id="img4">
+                    <input type="radio" name="slide" id="img5">
+                    <img src="/IMG/Foto1.jpg" class="m1" alt="img1"> 
+                    <img src="/IMG/foto2.jpg" class="m2" alt="img2">
+                    <img src="/IMG/Foto1.jpg" class="m3" alt="img3">
+                    <img src="/IMG/Foto1.jpg" class="m4" alt="img4">
+                    <img src="/IMG/Foto1.jpg" class="m5" alt="img5">
+                </div>
+                <br>
+                <div class="dots">
+                    <label for="img1"></label>
+                    <label for="img2"></label>
+                    <label for="img3"></label>
+                    <label for="img4"></label>
+                    <label for="img5"></label>
+                </div>
+                <p class="text3">
+                    PalettePartners es una startup que se enfoca en fomentar oportunidades 
+                    laborales en el ámbito artístico. Nuestro compromiso es establecer una 
+                    plataforma que enlace a artistas con talento con clientes en búsqueda de 
+                    servicios creativos excepcionales, generando un entorno propicio para el 
+                    florecimiento de la expresión artística y la abundancia de oportunidades.
+                </p>
+            </div>
         </div>
-    </section>
+    </div>
 
-    <section class="galeria" id="galeria">
-        <div class="contenedor">
-            <h2 class="titulo">Novedades Artisticas</h2>
-            <article>
-                <img src="img/uno.PNG" alt="">
-                <img src="img/tres.PNG" alt="">
-                <img src="img/cuatro.PNG" alt="">
-                <img src="img/ocho.PNG" alt="">
-                <img src="img/seis.PNG" alt="">
-                <img src="img/siete.PNG" alt="">
-            </article>
-        </div>
-    </section>
 
-    <section class="section-contacto" id="Contactanos">
-        <div class="contenedor-contacto">
-            <h2 class="titulo left">Contáctanos</h2>
-            <h3>Nuestros correos:</h3>
-            <p>usuario1@example.com</p>
-            <p>usuario2@example.com</p>
-            <p>usuario3@example.com</p>
-            <h3>Llámanos al:</h3>
-            <p>(+51) 999-999-999</p>
-            <a href="" class="cta">Ayuda</a>
-        </div>
-        <img src="img/banner-final.jpg">
-        <div class="svg-wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-7.34,100.17 C148.98,46.88 340.85,39.97 502.82,102.14 L500.00,0.00 L0.00,0.00 Z" style="stroke: none; fill: #08f;"></path></svg></div>
-    </section>
-
-    <footer id="contacto">
-        <div class="row">
-            <div class="col-sm-4" style="background-color:lavender;">PalettePartnerts © 2023 | <a href="#anuncios">Términos y condiciones </a></div>
-            
-            <div class="col-sm-4" style="background-color:lavenderblush;"> Contáctenos (+51) 999-999-999</div>
-            
-            <div class="col-sm-4" style="background-color:lavender;"><a href="#anuncios">Comprar anuncios </a>|<a href="#informacion"> Información legal </a>| <a href="#cookies"> Cookies </a></div>
-          </div>
-    </footer>
+    <div class="App_Movil" id=" App_Movil">
 
 
 
+    </div>
 
-    <!-- <header class="landing">
-        <div class="wrap-logo">
-            <img src="" alt=""
-            class="logo-header">
-        </div>
-    </header> -->
+    <div class="Contacto" id="Contacto">
 
-   <!-- <section class="hero-section">
-        <div class="wrap-hero-section">
-            <h1>Landing Page DropCoding</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae voluptatem aliquid 
-                necessitatibus eaque nostrum natus impedit ut aut officia exercitationem corrupti 
-                ad saepe provident consectetur, culpa atque incidunt fugiat. A.</p>
-        </div>
-    </section> -->
 
-<script src="https://kit.fontawesome.com/8c41dbedf5.js" crossorigin="anonymous"></script>
+
+    </div>
 </body>
 </html>
