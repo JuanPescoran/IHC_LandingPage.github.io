@@ -53,7 +53,7 @@ ul li{
 }
 
 .websai  {
-    background-image: linear-gradient(to top, #4fb576 0%, #44c489 30%, #28a9ae 46%, #28a2b7 59%, #4c7788 71%, #6c4f63 86%, #432c39 100%), url("img/banner-final.jpg");
+    background-image: linear-gradient(to top, #4fb576 0%, #44c489 30%, #28a9ae 46%, #28a2b7 59%, #4c7788 71%, #6c4f63 86%, #432c39 100%), url("IMG/banner-final.jpg");
     width: 100%;
     height: 925px;
     background-repeat: no-repeat;
@@ -112,7 +112,7 @@ ul li{
     cursor: pointer;
 }
 
-.artes-prev img{
+.artes-prev IMG{
     max-width: 950px; /* Ajusta  valor  */
     margin: 10px; /* Espacio entre las imágenes */
 }
@@ -122,7 +122,7 @@ ul li{
     flex-wrap: wrap;
     justify-content: center;
 }
-.artes-nos img{
+.artes-nos IMG{
     max-width: 100px; /* Ajusta  valor  */
     margin: 10px; /* Espacio entre las imágenes */
 }
