@@ -9,4 +9,4 @@ Feature: Explorar perfiles detallados de artistas
     And puedo ver información sobre su estilo, experiencia, y disponibilidad
     When evalúo el perfil del artista
     Then puedo obtener una visión completa del artista antes de tomar una decisión de contratación
-    And puedo conocer más sobre su trabajo anterior, su enfoque artístico y su disponibilidad para proyectos
+    And puedo conocer más sobre su trabajo anterior, su enfoque artístico y su disponibilidad para proyectos 

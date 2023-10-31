@@ -9,5 +9,5 @@ Feature: Visualización detallada de obras de arte
     And puedo desplazarme por la obra para apreciar cada aspecto
     When evalúo la obra 
     Then puedo ver la descripción detallada de la obra, incluyendo su tamaño, técnica, estilo, y precio
-    And se me proporciona información sobre el artista
-    And puedo apreciar y evaluar cada aspecto de la obra antes de tomar una decisión de compra
+    And se me proporciona información sobre el artista 
+    And puedo apreciar y evaluar cada aspecto de la obra antes de tomar una decisión de compra 
