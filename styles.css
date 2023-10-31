@@ -175,13 +175,78 @@ ul li{
     margin:0px;
     padding:0px;
 }
+
+/* CONTACTO*/
 .Contacto{
     background-color: #649e90;
-    height: 600px;
-    margin:0px;
-    padding:0px;
+    height: 750px;
+    text-align: center;
+    
+}
+.super{
+    display: inline-block;
+    
+}
+.contenedor3{
+   
+    margin-left: 40px;
+    margin-right:40px;  
+    
 }
 
+.metodos{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 5px solid rgb(188, 45, 45); 
+    width: 350px;
+    padding: 10px 15px;
+    text-align: center;
+    background-color: white;
+    border-radius: 20px;
+    
+}
+.contenedor4{
+    text-align: center;
+     margin: 0px;   
+}
+.nuevo {
+    position: relative;
+    top:-20px;
+    width: 700px;
+    background-color: white;
+    border-radius: 20px;
+}
+.Titulo-form{
+    font-size: 40px;
+    padding: 20px 15px;
+    background-color: antiquewhite;
+    border-radius: 20px;
+}
+.stuff{
+    height: 25px;
+    width: 80%;
+    text-align: left;
+    justify-content: left;
+    margin: 10px;
+}
+.especial{
+    text-align: start;
+    height: 100px;
+    margin-bottom: 25px;
+}
+.boton{
+    background-color: rgb(52, 204, 52);
+    border: none;
+    padding:10px 15px;
+    margin-bottom: 10px;
+}
+.boton:hover{
+    cursor: pointer;
+}
+
+
+/* FOOTER*/
 .Pie{
     box-sizing: border-box;
 }
