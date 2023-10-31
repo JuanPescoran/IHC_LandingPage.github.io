@@ -12,8 +12,8 @@ Feature: Proceso seguro de entrega de obras de arte
     Then se me proporciona información de seguimiento y seguro para el envío
     And se me garantiza que la obra de arte estará asegurada durante el transporte
     And se me brinda información sobre cómo proceder si la obra llega dañada
-    When confirmo el envío
-    Then recibo un aviso de confirmación y detalles del seguimiento del envío
+    When confirmo el envío 
+    Then recibo un aviso de confirmación y detalles del seguimiento del envío 
     And puedo seguir el estado del envío en tiempo real
     And tengo certeza de que el proceso de entrega es seguro y confiable
 
