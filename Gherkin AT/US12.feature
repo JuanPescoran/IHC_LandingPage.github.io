@@ -9,4 +9,4 @@ Feature: Búsqueda de artistas por categoría
     When realizo la búsqueda
     Then se me muestra una lista de artistas especializados en la categoría seleccionada
     And puedo explorar perfiles de artistas que se ajustan a mis preferencias
-    And puedo encontrar artistas especializados en el tipo de arte que deseo
+    And puedo encontrar artistas especializados en el tipo de arte que deseo 

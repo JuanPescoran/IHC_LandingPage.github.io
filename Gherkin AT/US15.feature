@@ -7,4 +7,4 @@ Feature: Soporte en línea para asistencia
     And se me proporciona un sistema de chat en vivo o un formulario de contacto
     When contacto al soporte en línea
     Then recibo asistencia en tiempo real o una respuesta oportuna a mi consulta
-    And puedo obtener ayuda en caso de tener alguna duda relacionada a la plataforma
+    And puedo obtener ayuda en caso de tener alguna duda relacionada a la plataforma 

@@ -9,5 +9,5 @@ Feature: Pago seguro y confiable
     When ingreso la información de mi tarjeta de crédito
     And confirmo el pago
     Then recibo una confirmación de la transacción
-    And se me proporciona un recibo electrónico de la compra
+    And se me proporciona un recibo electrónico de la compra 
     And puedo estar seguro de que el proceso de pago ha sido seguro y confiable

@@ -8,4 +8,4 @@ Feature: Acceso a reporte de ventas para artistas
     And puedo ver información sobre cada venta, incluyendo fecha, cliente, obra vendida y monto
     When reviso el reporte de ventas
     Then puedo realizar un seguimiento de mi desempeño financiero en la plataforma
-    And tener un registro preciso de mis transacciones
+    And tener un registro preciso de mis transacciones 

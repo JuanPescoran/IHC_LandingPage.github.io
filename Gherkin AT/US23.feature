@@ -6,5 +6,5 @@ Feature: Registrar nuevas publicaciones en el perfil del artista
     When accedo a la función de publicación en mi perfil
     Then puedo agregar una nueva publicación con detalles sobre mi nuevo trabajo artístico
     When publico la nueva obra de arte
-    Then la publicación queda registrada en mi perfil
+    Then la publicación queda registrada en mi perfil 
     And puedo dar a conocer mis nuevos trabajos artísticos a los visitantes de mi perfil

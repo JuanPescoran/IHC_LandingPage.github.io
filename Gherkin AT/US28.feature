@@ -6,6 +6,6 @@ Feature: Recibir puntuación y comentarios de mis obras como artista
     When los usuarios visitan mis obras
     Then tienen la opción de calificar y dejar comentarios sobre mis trabajos
     And pueden proporcionar retroalimentación sobre mis obras
-    When recibo puntuaciones y comentarios
+    When recibo puntuaciones y comentarios 
     Then las puntuaciones y comentarios se muestran en mis obras en la plataforma
     And puedo utilizar esta retroalimentación para posicionarme en la aplicación

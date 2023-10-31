@@ -9,4 +9,4 @@ Feature: Notificaciones de comentarios y valoraciones para artistas
     When deseo responder al comentario o valoración
     Then puedo escribir una respuesta
     And la respuesta se muestra junto al comentario o valoración
-    And puedo responder a los comentarios de los clientes de manera oportuna
+    And puedo responder a los comentarios de los clientes de manera oportuna 

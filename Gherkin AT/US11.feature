@@ -7,5 +7,5 @@ Feature: Acceso a reseñas y calificaciones de artistas
     Then veo las reseñas y calificaciones de otros clientes sobre su trabajo
     And puedo leer las reseñas detalladas para conocer las experiencias de otros clientes
     And puedo ver la calificación promedio del artista
-    When evalúo las reseñas y calificaciones del artista
+    When evalúo las reseñas y calificaciones del artista 
     Then puedo tomar una decisión informada sobre si quiero trabajar con ese artista en base a la retroalimentación de otros clientes
