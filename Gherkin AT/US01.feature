@@ -15,13 +15,13 @@ Scenario: E02 - Acceso autorizado
 
 Scenario: E03 - Protección de datos en reposo
     Given la aplicación almacena datos de usuario en una base de datos
-    When los datos están en reposo (en la base de datos)
+    When los datos están en reposo en la base de datos
     Then los datos deben estar cifrados y protegidos adecuadamente
 
 Scenario: E04 - Protección de datos en tránsito
     Given un usuario interactúa con la aplicación a través de una conexión segura
     When los datos se transmiten entre el cliente y el servidor
-    Then la comunicación debe estar cifrada utilizando protocolos seguros (como HTTPS)
+    Then la comunicación debe estar cifrada utilizando protocolos seguros como HTTPS
 
 Scenario: E05 - Gestión de sesiones
     Given un usuario inicia sesión en la aplicación
@@ -32,7 +32,6 @@ Scenario: E06 - Registro de auditoría
     Given la aplicación permite la interacción con datos de usuario confidenciales
     When se realizan acciones en los datos
     Then se debe mantener un registro de auditoría para rastrear quién hizo qué cambios
-
 Scenario: E07 - Cumplimiento con regulaciones de privacidad
     Given la aplicación maneja datos personales
     When se realizan cambios en la configuración de privacidad o se solicita eliminación de datos
